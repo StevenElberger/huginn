@@ -435,6 +435,8 @@ GEM
     httpclient (2.8.3)
     huginn_agent (0.6.1)
       thor
+    huginn_twitter_publishv2_agent (0.1.1)
+      huginn_agent
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     jmespath (1.6.2)
@@ -846,7 +848,7 @@ GEM
 
 PLATFORMS
   aarch64-linux
-  arm64-darwin
+  arm64-darwin-23
   ruby
   x86_64-darwin
   x86_64-linux
@@ -894,6 +896,7 @@ DEPENDENCIES
   httmultiparty (~> 0.3.16)
   httparty (~> 0.21)
   huginn_agent
+  huginn_twitter_publishv2_agent
   hypdf!
   jquery-rails (~> 4.6)
   json (~> 2.7, >= 2.7.2)
